@@ -20,7 +20,7 @@ app.post('/subscribe', (req, res) => {
     const client = new postmark.ServerClient('924f0f9e-a1ab-4964-9cd9-5638ad722a22');
   
     const message = {
-      From: 'sgarak@deakin.edu.au',
+      From: 'owner@somil.au',
       To: email,
       Subject: 'Welcome to Our Newsletter',
       HtmlBody: '<p>Thank you for subscribing to our newsletter!</p>'
